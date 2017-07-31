@@ -7,6 +7,7 @@ def play_again():
         play()
     elif var == "exit":
         print('see you again..!')
+        exit()
     else:
         print('keyword not matching')
         play_again()
