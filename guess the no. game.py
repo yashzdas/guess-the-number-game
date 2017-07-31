@@ -14,7 +14,7 @@ def play():
     user= int(input('Guess a digit between 0 to 9: '))
     comp= randint(0,10)
     if user == comp:
-        print('win ',comp)
+        print("win it's",comp)
     elif user<comp:
         z= str(comp-user)
         print("It's",comp,' your number is '+z+' digit lower')
