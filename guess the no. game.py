@@ -17,10 +17,10 @@ def play():
         print('win ',comp)
     elif user<comp:
         z= str(comp-user)
-        print(comp,' your number is '+z+' digit lower')
+        print("It's",comp,' your number is '+z+' digit lower')
     elif comp<user:
         x= str(user-comp)
-        print(comp,' your number is '+x+' digit higher')
+        print("It's",comp,' your number is '+x+' digit higher')
         print('shall we play again..!')
     play_again()
 play()
